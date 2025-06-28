@@ -3,8 +3,8 @@ const chatContainer = document.querySelector(".chat-container");
 const image = document.querySelector("#image");
 const imageinput = document.querySelector("#image input");
 
-const api_url =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDg9yedcCxmqKD7Wy6hzCvlN4kS3FjSLtk";
+const api_url =// const API_KEY = "your_key_here"; // removed for security
+
 
 let user = {
   message: null,
