@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: white;
+  height: 100%;
+  width: 100%;
+  background-image: url(/background-image.png);
+  background-size: cover;
+  /* Image ko pura screen cover karne ke liye */
+  background-position: center;
+  /* Image ko center align karne ke liye */
+  background-repeat: no-repeat;
+  /* Image baar-baar repeat na ho iske liye */
+  background-attachment: fixed;
+  /* Scroll karte waqt image fixed rahe */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.549);
+  padding: 40px;
+  border-radius: 7px;
+  position: absolute;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  transition: border 1s ease;
+  cursor: pointer;
+}
+
+.container:hover{
+  border: 3px solid aqua;
+}
+
+.container h1 {
+  font-size: 40px;
+}
+
+.container p{
+  font-size: 18px;
+}
+
+.container button{
+  padding: 0.7rem 3.5rem;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+  background-color:  rgb(55, 111, 130);
+  color: white;
+  border: none;
+  transition: border 0.7s ease;
+}
+
+.container button:hover{
+ border: 2px solid rgb(191, 189, 189);
+}
